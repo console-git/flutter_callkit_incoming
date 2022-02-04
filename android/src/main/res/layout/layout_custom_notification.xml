@@ -9,12 +9,12 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20px"
-        android:layout_marginLeft="20px"
-        android:layout_marginTop="20px"
-        android:layout_marginEnd="20px"
-        android:layout_marginRight="20px"
-        android:layout_marginBottom="20px">
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -27,12 +27,12 @@
                 android:id="@+id/tvNameCaller"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10px"
-                android:layout_marginLeft="10px"
-                android:layout_marginTop="10px"
-                android:layout_marginEnd="10px"
-                android:layout_marginRight="10px"
-                android:layout_marginBottom="10px"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:textAppearance="@style/TextAppearance.Compat.Notification.Title"
                 android:textSize="@dimen/size_text_action" />
 
@@ -41,12 +41,12 @@
                 android:id="@+id/tvNumber"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10px"
-                android:layout_marginLeft="10px"
-                android:layout_marginTop="10px"
-                android:layout_marginEnd="10px"
-                android:layout_marginRight="10px"
-                android:layout_marginBottom="10px"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:textAppearance="@style/TextAppearance.Compat.Notification.Line2"
                 android:textSize="@dimen/size_text_action" />
 
@@ -65,12 +65,12 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20px"
-        android:layout_marginLeft="20px"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="@dimen/base_margin"
-        android:layout_marginEnd="20px"
-        android:layout_marginRight="20px"
-        android:layout_marginBottom="30px"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
         android:orientation="horizontal">
 
 
