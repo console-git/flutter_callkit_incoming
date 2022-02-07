@@ -150,7 +150,7 @@ class CallkitIncomingBroadcastReceiver : BroadcastReceiver() {
                 try {
                     sendEventFlutter(ACTION_CALL_TIMEOUT, data)
                     callkitSoundPlayer.stop()
-                    callkitNotificationManager.showMissCallNotification(data)
+                    // callkitNotificationManager.showMissCallNotification(data)
                     removeCall(context, Data.fromBundle(data))
                 } catch (error: Exception) {
                     error.printStackTrace()
